@@ -1,0 +1,1 @@
+{"version":3,"file":"webpack.common.js","sourceRoot":"","sources":["../../../webpack.common.js"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG;IACf,YAAY;IACZ,0BAA0B;IAC1B,0BAA0B;IAC1B,KAAK;IACL,IAAI,EAAE,YAAY;IAClB,OAAO,EAAE;QACP,UAAU,EAAE,CAAC,OAAO,EAAE,KAAK,CAAC;KAC7B;IACD,SAAS,EAAE;QACT;YACE,KAAK,EAAE,OAAO;SACf;KACF;CACF,CAAC"}
