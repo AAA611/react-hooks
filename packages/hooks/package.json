@@ -7,8 +7,9 @@
   "module": "dist/packages/hooks/src/index.js",
   "sideEffects": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "test": "jest",
+    "build":"tsc",
+    "build:webpack": "webpack",
     "build:esm": "cross-env BUILD_ENV=esm webpack",
     "build:cjs": "cross-env BUILD_ENV=cjs webpack"
   },
