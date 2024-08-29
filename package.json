@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["react-hooks","react","hooks"],
   "author": "",
   "license": "ISC",
   "description": "",
