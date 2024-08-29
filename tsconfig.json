@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "outDir": "./packages/hooks/dist",
         "target": "ES5",
         "module": "ESNext",
         "moduleResolution": "node",
@@ -17,7 +16,6 @@
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "skipLibCheck": true,
-        "declaration": false,
         "strictNullChecks": true,
         "importHelpers": true
     },

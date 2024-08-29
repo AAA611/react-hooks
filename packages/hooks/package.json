@@ -2,7 +2,8 @@
   "name": "react-hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/react-hooks.esm.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "module": "dist/packages/hooks/src/index.js",
   "sideEffects": false,
   "scripts": {
