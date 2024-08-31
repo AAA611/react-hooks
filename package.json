@@ -52,8 +52,10 @@
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "lint-staged": {
-    "*.{ts,js}": "eslint --cache --fix",
-    "**/__test__/*.{ts,js}": "jest --bail --findRelatedTests",
+    "*.{ts,js}": [
+      "eslint --cache --fix",
+      "jest --bail --findRelatedTests"
+    ],
     "*.{ts,js,css,md}": "prettier --write"
   }
 }
