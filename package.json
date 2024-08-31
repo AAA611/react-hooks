@@ -53,8 +53,8 @@
   },
   "lint-staged": {
     "*.{ts,js}": [
-      "eslint --cache --fix",
-      "jest --bail --findRelatedTests"
+      "jest .",
+      "eslint --cache --fix"
     ],
     "*.{ts,js,css,md}": "prettier --write"
   }

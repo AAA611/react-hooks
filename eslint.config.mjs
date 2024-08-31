@@ -21,7 +21,7 @@ export default [
     },
   },
   {
-    ignores: ["node_modules", "**/webpack.*.js", "**/__test__", "**/jest.*.js"],
+    ignores: ["node_modules", "**/webpack.*.js", "**/__tests__", "**/jest.*.js"],
   },
   eslintConfigPrettier,
 ];
