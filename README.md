@@ -5,4 +5,4 @@
 - [ ] 添加其他 hook
 - [ ] 文档
 - [ ] 单元测试
-- [ ] eslint prettier 规范接入
+- [x] eslint prettier 规范接入
