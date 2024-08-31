@@ -19,7 +19,7 @@ const useInterval = (fn: () => void, delay?: number) => {
     return clear;
   }, [delay]);
 
-  return clear
+  return clear;
 };
 
 export default useInterval;

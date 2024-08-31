@@ -11,7 +11,7 @@ const commonConfig = merge(common, {
     },
     path: path.resolve(__dirname, "./dist"),
   },
-  devtool:false,
+  devtool: false,
   resolve: {
     extensions: [".ts", ".js"],
   },
@@ -37,7 +37,7 @@ module.exports = () => {
   console.log(isESM);
 
   const dynamicConfig = {
-    mode:'development',
+    mode: "development",
     output: {
       filename: `react-hooks.${buildEnv}.js`,
       path: path.resolve(__dirname, "./dist"),

@@ -8,7 +8,7 @@
   "sideEffects": false,
   "scripts": {
     "test": "jest",
-    "build":"tsc",
+    "build": "tsc",
     "build:webpack": "webpack",
     "build:esm": "cross-env BUILD_ENV=esm webpack",
     "build:cjs": "cross-env BUILD_ENV=cjs webpack"
