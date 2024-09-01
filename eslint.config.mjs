@@ -18,10 +18,16 @@ export default [
       "react-hooks/rules-of-hooks": "error",
       // 检查依赖项的声明
       // "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
     },
   },
   {
-    ignores: ["node_modules", "**/webpack.*.js", "**/__tests__", "**/jest.*.js"],
+    ignores: [
+      "node_modules",
+      "**/webpack.*.js",
+      "**/__tests__",
+      "**/jest.*.js",
+    ],
   },
   eslintConfigPrettier,
 ];
